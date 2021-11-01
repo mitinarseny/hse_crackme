@@ -16,7 +16,7 @@ int main() {
 	std::cin >> user_key;
 
 	if (user_key != key) {
-		std::cout << "Error!" << std::endl;
+		std::cerr << "Error!" << std::endl;
 		return 1;
 	};
 
